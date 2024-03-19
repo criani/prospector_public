@@ -1,0 +1,15 @@
+version: '3'
+services:
+  prospector:
+    image: nextier/prospector:latest
+    ports:
+      - "5000:5000"
+    volumes:
+      - /opt/prospector/scans:/app/scans
+      - /opt/prospector/instance:/app/instance
+      - /opt/prospector/log:/app/log
+      
+    environment:
+      - FLASK_APP=main.py
+      - FLASK_ENV=development
+    command: flask run --host=0.0.0.0

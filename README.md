@@ -20,7 +20,7 @@ For download and installation files for Prospector
    Run the following in your `/opt/` directory, or any other directory where you have appropriate permissions and want to install.
 
    ```sh
-   curl -O https://raw.githubusercontent.com/criani/prospector_public/main/autoinstall_yum.sh
+   curl -O https://raw.githubusercontent.com/criani/prospector_public/main/autoinstall_rhel.sh
    chmod +x autoinstall_yum.sh
    sudo ./autoinstall_yum.sh
    ```

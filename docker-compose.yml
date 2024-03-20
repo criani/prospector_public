@@ -8,6 +8,9 @@ services:
       - /opt/prospector/scans:/app/scans
       - /opt/prospector/instance:/app/instance
       - /opt/prospector/log:/app/log
+      - /opt/prospector/excel_reports:/app/excel_reports
+      - /opt/prospector/config.json:/app/config.json
+      - /opt/prospector/client_config.json:/app/client_config.json
     environment:
       - FLASK_APP=main.py
       - FLASK_ENV=production

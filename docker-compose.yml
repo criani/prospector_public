@@ -8,8 +8,9 @@ services:
       - /opt/prospector/scans:/app/scans
       - /opt/prospector/instance:/app/instance
       - /opt/prospector/log:/app/log
-      
     environment:
       - FLASK_APP=main.py
-      - FLASK_ENV=development
+      - FLASK_ENV=production
     command: flask run --host=0.0.0.0
+    restart: always
+

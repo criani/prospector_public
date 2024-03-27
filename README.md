@@ -3,7 +3,9 @@ To download and install Prospector in the easiest way, follow the below guides f
 
 ## System Recommendations
 Ubuntu 22.04 LTS Operating System - Can be obtained free at [https://ubuntu.com/download/desktop](https://ubuntu.com/download/server)
+
 A Typical VM should have at least 2 cores and 4GB RAM, Prospector is very light weight. Scan speed will slightly increase with 4 cores due to the multi-thread actions taken during scans. 
+
 The system will need internet access for installation and scanning. Most firewall default allow outbound, you will not need any inbound rules, unless the system is fully isolated on its own LAN, in which case port 5000 inbound HTTP is required for connecting to the web interface. 
 
 Note: There is no CLI for prospector, all actions are taken via the frontend on a web browser. 

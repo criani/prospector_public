@@ -1,3 +1,8 @@
+
+![Prospector Logo](https://github.com/criani/prospector/blob/main/static/prospector.png)
+
+
+
 # Installation
 To download and install Prospector in the easiest way, follow the below guides for your system type. Please note that this will pull and install all required programs and dependencies, as well as pull the latest image of prospector. Scans, Logs, and License data will persist when pulling a newer version. So, to update prospector, simply run the below commands again.
 

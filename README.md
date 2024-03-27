@@ -1,5 +1,5 @@
 
-![Prospector Logo](https://github.com/criani/prospector_public/blob/main/static/prospector.png)
+![Prospector Logo](https://github.com/criani/prospector_public/blob/main/prospector.png)
 
 
 
